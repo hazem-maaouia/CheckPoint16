@@ -19,7 +19,7 @@ const MovieList = ({ movietab }) => {
   };
 
   return (
-    <>
+    <div className="tes">
       <h1 className="titre">Movie App</h1>
       <div className="di">
         <Form.Control
@@ -54,7 +54,7 @@ const MovieList = ({ movietab }) => {
             <MovieCard item={item} key={index} />
           ))}
       </div>
-    </>
+    </div>
   );
 };
 
